@@ -17,6 +17,11 @@ This is a simple Flask-based RESTful API for adding, spending and checking balan
 
    ```bash
    git clone https://github.com/KohnKaleb/Fetch-Rest-API.git
+3. set up virtual environment (optional)
+   ```bash
+   python -m venv myenv
+   source myenv/bin/activate
+   
 2. installing necessary frameworks and libraries
    ```bash
    pip install Flask
