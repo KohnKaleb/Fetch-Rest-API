@@ -22,10 +22,11 @@ class add(Resource):
     """
     def post(self):
        added_points = request.get_json()
-       stored_transactions.append(added_points)
 
        if "payer" not in added_points or "points" not in added_points or "timestamp" not in added_points:
            return '', 400
+       
+       stored_transactions.append(added_points)
 
        return '', 200
     
